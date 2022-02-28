@@ -20,7 +20,7 @@ jobs:
 
       - name: Deploy with gh-pages
         run: |
-          echo "test(7)"
+          echo "test(7) "
           git config --global user.email "dezhik@yandex.ru"
           git config --global user.name "Serje"
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
