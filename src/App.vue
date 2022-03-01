@@ -50,4 +50,12 @@ export default {
   display: grid;
   grid-template-columns: 80% 20%;
 }
+@media (max-width: 900px){
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .app__title {
+    font-size: 16px;
+  }
+}
 </style>

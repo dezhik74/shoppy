@@ -92,9 +92,11 @@ export default {
 .cart__button {
   height: 30px;
   width: 80%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
+  height: auto;
   padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
 }
 </style>

@@ -41,4 +41,20 @@ export default {
   column-gap: 8px;
   row-gap: 8px;
 }
+
+@media (max-width: 1000px) {
+  .list__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 780px) {
+  .list__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .list__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 </style>
